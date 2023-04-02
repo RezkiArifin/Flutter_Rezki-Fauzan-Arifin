@@ -1,0 +1,13 @@
+const String imageg1 = 'assets/img/g1.jpg';
+const String imageg2 = 'assets/img/g2.jpg';
+const String imageg3 = 'assets/img/g3.jpg';
+const String imageg4 = 'assets/img/g4.jpg';
+const String imageg5 = 'assets/img/g5.jpg';
+const String imageg6 = 'assets/img/g6.jpg';
+const String imageg7 = 'assets/img/g7.png';
+const String imageg8 = 'assets/img/g8.jpg';
+const String imageg9 = 'assets/img/g9.jpg';
+const String imageg10 = 'assets/img/g10.jpg';
+const String imageg11 = 'assets/img/g11.jpg';
+const String imageg12 = 'assets/img/g12.jpg';
+const String imageg13 = 'assets/img/g13.jpg';
