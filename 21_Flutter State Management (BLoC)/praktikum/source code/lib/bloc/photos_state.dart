@@ -3,8 +3,6 @@ part of 'photos_bloc.dart';
 
 abstract class PhotosState extends Equatable {
   const PhotosState();
-
-  get images => listImage;
 }
 
 class PhotosInitial extends PhotosState {
@@ -13,7 +11,6 @@ class PhotosInitial extends PhotosState {
 }
 
 class PhotosSuccessLoaded extends PhotosState {
-  @override
   final List<ImageModel> images;
 
   const PhotosSuccessLoaded({required this.images});

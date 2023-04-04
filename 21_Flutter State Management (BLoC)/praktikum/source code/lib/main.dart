@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child:
               BlocBuilder<PhotosBloc, PhotosState>(builder: (context, state) {
             BlocProvider.of<PhotosBloc>(context).add(FetchImagePhotosEvent());
-            if (state is FetchImagePhotosEvent) {
+            if (state is PhotosSuccessLoaded) {
               return Material(
                 clipBehavior: Clip.antiAliasWithSaveLayer,
                 child: GridView.builder(
